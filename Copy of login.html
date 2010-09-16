@@ -1,0 +1,93 @@
+<html>
+
+
+
+<head>
+
+        <title>NightFire</title>
+
+
+<script language="javascript">
+<!--//
+
+	if (navigator.appName == "Netscape") {
+		document.write('<link rel=stylesheet href="gameNS.css" type="text/css">');
+	} else {
+		document.write('<link rel=stylesheet href="game.css" type="text/css">');
+	}
+	
+//-->	
+</script>
+
+<script language = "Javascript">
+//lightup functions
+//made by ~Q
+
+function LightUp(targ_obj){
+	targ_obj.style.background = '#000099';
+}
+
+function LightOut(targ_obj){
+	targ_obj.style.background = '#000033';
+}
+
+function ButtonLight(targ_obj){
+	targ_obj.style.background = '#ee5900';
+}
+
+function ButtonDark(targ_obj){
+	targ_obj.style.background = '#660000';
+}
+</script>
+
+
+</head>
+
+
+<body bgcolor="#000000" text="#ffffff" link="#ffffff" vlink="#ffffff" alink="ffcc33">
+
+
+
+<div>
+
+
+<CENTER>
+
+<FORM ACTION="start.asp" METHOD="POST">
+
+<table>
+<tr bgcolor="#0000CC"><td colspan=8 align = "center" class = "large">Login</td></tr>
+
+<tr>
+
+<td bgcolor="#000033">Username: </td>
+
+<td><INPUT MAXLENGTH="25" NAME="UserName" SIZE="15" TYPE="TEXT" class = "numbar" onFocus = "LightUp(this);" onBlur ="LightOut(this);"></td>
+
+</tr>
+
+<tr>
+
+<td bgcolor="#000066">Password: </td>
+
+<td><INPUT MAXLENGTH="25" NAME="Password" SIZE="15" TYPE="PASSWORD" class = "numbar" onFocus = "LightUp(this);" onBlur ="LightOut(this);"></td>
+
+</tr>
+
+<tr>
+
+<td align="center" colspan="2"><INPUT TYPE="submit" VALUE="Login!" class = "button" onMouseover = "ButtonLight(this)" onMouseOut = "ButtonDark(this)"></td>
+
+</tr>
+
+</table>
+
+</FORM>
+
+</center>
+
+</div>
+
+</body>
+
+</html>

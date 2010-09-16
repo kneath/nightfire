@@ -1,0 +1,104 @@
+<style type = "text/css">
+<!--
+
+
+
+/* All words inside these symbols are comments. They will guide you through customizing
+the colors of your forum */
+
+
+/*This color after background: will be the background of your forum. If you would like a picture just make it background: http://location.jpg; Otherwise, any hex color (i.e. 000000 which is black) will work */
+body{background: 000000;}  
+
+
+/* All of this are for your links. The font-family is the font family you wish to use. (i.e. Arial or Verdana)
+The color option is the color of the font any hex color will do.
+The text-decoration option allows you underline or do nothing when the action is done (i.e. hover or click on the link)
+The font-size option determines what size you wish the font to be. it is in point sizes add a pt after the size (i.e. 12pt is a twelve point font)
+The font-weight is either bold or delete the option for normal text.
+
+a:link is a normal link
+a:visited is a visited link
+a:active is a link that is being clicked on
+a:hover is when the mouse is over the link
+*/
+
+a:link{font-family:Arial,Veranda;color:white;text-decoration:none;font-size:10pt;font-weight:bold;}
+a:visited{font-family:Arial,Veranda;color:#FF4500; text-decoration:none;font-size:10pt;font-weight:bold;}
+a:active{font-family:Arial,Veranda;color:yelow; text-decoration:none;font-size:10pt;font-weight:bold;}
+a:hover{font-family:Arial,Veranda;color:white; text-decoration:underline;font-size:10pt;font-weight:bold;}
+
+/* All of the div{... p{.... and .large... and on work the same way as the a:link ones.
+Note: .large is for most title text and most others are not used in the document.
+*/
+
+div{font-family:Arial,Veranda;color:white;font-size:10pt;font-weight:bold;}
+p{font-family:Arial,Veranda;color:white;font-size:10pt;font-weight:bold;}
+.large{font-family:Arial,Veranda;color:white;font-size:14pt;font-weight:bold;}
+.blue{font-family:Arial,Veranda;color:blue;font-size:10pt;font-weight:bold;}
+.red{font-family:Arial,Veranda;color:red;font-size:10pt;font-weight:bold;}
+.orange{font-family:Arial,Veranda;color:orange;font-size:10pt;font-weight:bold;}
+.yellow{font-family:Arial,Veranda;color:yellow;font-size:10pt;font-weight:bold;}
+.blink{font-family:Arial,Veranda;color:white;font-size:10pt;font-weight:bold;text-decoration:blink;}
+
+/*
+This is the background color for the title bars. An example of one is the color behind Subject Posts Poster Last Post row
+*/
+
+.titlebar{
+background-color: 0000CC;
+}
+
+
+/* 
+This is the background colors for viewing the threads. They are the colors that appear behind the text while viewing messages.
+*/
+
+.back1{
+background-color:000033;
+}
+.back2{
+background-color:000066;
+}
+
+
+/* 
+.numbar controls the colors of the input boxes, or form elements if you wish. They are the boxes you write things in like the "Poster" box and such.
+background-color is the color in the back of the boxes
+border-color is the color of the border around the boxes
+border-style must stay solid along with the width and heighth
+font-size is the size of the text inside the boxes. and the other font options work as the others did
+*/
+
+.numbar {
+background-color: #000033;
+border-color: #0000ff;
+border-style: solid;
+border-width: 1px;
+margin-height: 0px;
+color: #ffffff;
+font-size: 10pt;
+font-family: Verdana;
+font-weight: bold
+}
+
+
+/*
+.button controls the colors of the submit buttons, or buttons you press to move to other pages such as "Post"
+These options work ast the previous ones do. 
+Note: border-stle, border-width, height, must stay as they are.
+*/
+
+.button {
+background-color: #660000;
+border-color: #ff0000;
+border-style: solid;
+border-width: 1px;
+height: 20px;
+color: #ffffff;
+font-size: 10pt;
+font-family: Verdana;
+font-weight: bold
+}
+-->
+</style>
