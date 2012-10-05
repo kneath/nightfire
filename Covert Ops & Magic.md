@@ -4,7 +4,6 @@ Like espionage in Dominion, Covert Ops is used for the underground operations. T
 
 * not determined yet
 
-----
 
 ## Magic
 
@@ -12,7 +11,6 @@ Very self explanatory. Note that mages will both produce mana and cast spells. A
 
 * not determined yet
 
-----
 
 ## Operations
 
@@ -36,7 +34,6 @@ Very self explanatory. Note that mages will both produce mana and cast spells. A
 
 * **Drain Energy:** Agents sneak into energy plants and insert special sabotage tools to cause energy leakage, resulting in loss of energy of the opposing nation.
 
-----
 
 ## Spells
 
